@@ -1,3 +1,4 @@
+
 .lista {
     transition: all .3s ease-in-out;
     padding-top: 1rem;
@@ -11,6 +12,25 @@
 }
 
 .fondo-nav{
-    background: linear-gradient(45deg,rgb(0, 0, 0),rgb(44, 44, 44),rgb(70, 70, 70),rgb(51, 51, 51),rgb(0, 0, 0));
-
 }
+
+.barra{
+  height: 2rem;
+}
+
+.fondo-color1{
+  background-color: #264653;
+}
+.fondo-color2{
+  background-color: #2a9d8f;
+}
+.fondo-color3{
+  background-color: #e9c46a;
+}
+.fondo-color4{
+  background-color: #f4a261;
+}
+.fondo-color5{
+  background-color: #e76f51;
+}
+
