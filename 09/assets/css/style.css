@@ -34,7 +34,7 @@ ul{
 }
 .sin-decoracion{
   text-decoration: none;
-  color: white;
+  
 }
 .style-enunciado{
   font-size: 250%;
@@ -68,6 +68,7 @@ ul{
   transition: 0.3s ease-in;
   padding: 15px 20px;
   border-radius: 10rem;
+  border: 4px solid black;
   
 }
 .boton-ver:hover{
@@ -75,7 +76,6 @@ ul{
   cursor: pointer;
   background-color: white;
   color: black;
-
   border: 4px solid black;
   
 
@@ -128,15 +128,21 @@ ul{
   height:4rem ;
   text-align: center;
   text-decoration: none;
-  color: rgb(229, 215, 241);
+  color: rgb(180, 180, 180);
   font-size:150%;   
-
 }
-
 .lista-hamburgesa:hover {
   
-color: rgb(174, 103, 240);
+color: white;
+filter: brightness(150%);
 
+}
+.blanco{
+  color: white;
+  
+}
+.negro{
+  color: black;
 }
 
 @media (min-width: 00px) and (max-width: 700px){
