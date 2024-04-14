@@ -21,6 +21,10 @@ ul{
 .separa{
   justify-content:space-between;
 }
+.abajo-derecha{
+  justify-content: end;
+  align-items: flex-end;
+}
 .derecha{
   justify-content: end;
   margin-right: 20px;
@@ -31,6 +35,33 @@ ul{
 .sin-decoracion{
   text-decoration: none;
   color: white;
+}
+.style-enunciado{
+  font-size: 250%;
+  text-decoration: dotted;
+  
+  background: linear-gradient(to right, #212529e0, #2125297c, #21252900);
+  color: #adb5bd ;
+}
+
+.boton-ver{
+
+  background-color: white;
+  color: black;
+  padding: 15px 20px;
+  border-radius: 10rem;
+  border: 4px solid black;
+  text-transform: uppercase;
+  
+}
+.boton-ver:hover{
+
+  cursor: pointer;
+  
+  background-color: rgb(13, 13, 13);
+  color: rgb(255, 255, 255);
+  border: 4px solid rgb(151, 149, 149);
+  transition: 0.3s ease-in;
 }
 
 .transicion-derecha{
@@ -142,6 +173,9 @@ color: rgb(174, 103, 240);
 }
 .fondo-color6{
   background-color: rgb(6, 132, 6);
+}
+.fondo-color7{
+  background-color: white;
 }
 
 
