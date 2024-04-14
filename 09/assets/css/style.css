@@ -22,6 +22,10 @@ ul{
   text-decoration: none;
   color: black;
 }
+.titulo{
+  background-image: 'https://th.bing.com/th/id/OIG4.zfhoK3asGDyFB9ThHk.d?pid=ImgGn';
+ 
+}
 
 .lista{
   
@@ -42,8 +46,10 @@ ul{
 .lista-hamburgesa {
   
   display: flex;
-  justify-content: center;
-  width: 15rem;
+  justify-content: start;
+  margin-left: 140px;
+  width: 200rem;
+  height:4rem ;
   text-align: center;
   text-decoration: none;
   color: rgb(229, 215, 241);
@@ -53,7 +59,7 @@ ul{
 
 .lista-hamburgesa:hover {
   
-transition: all .3s ease-in-out;
+
 color: rgb(174, 103, 240);
 
 }
@@ -65,7 +71,7 @@ color: rgb(174, 103, 240);
   
   justify-content: center;
   border-radius: 3px;
-  transition: all .3s ease-in-out;
+  
   background: linear-gradient(45deg,rgb(0, 0, 0),rgb(44, 44, 44),rgb(70, 70, 70),rgb(51, 51, 51),rgb(0, 0, 0))
 }
 
@@ -74,14 +80,13 @@ color: rgb(174, 103, 240);
 @media (min-width: 00px) and (max-width: 700px){
     
   .desaparecer{
-
       display: none;
   }
 }
 
 @media (min-width: 00px) and (max-width: 700px){
     
-  nav ul{
+  .cambio-columna{
 
       display: flex;
       flex-direction: column;
