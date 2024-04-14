@@ -33,6 +33,29 @@ ul{
   color: white;
 }
 
+.transicion-derecha{
+  
+}
+.transicion-derecha :hover{
+  transition: .3s ease-in-out;
+  transform: translateX(5px);
+}
+
+.transicion-abajo{
+  
+}
+.transicion-abajo :hover{
+  transition: .3s ease-in-out;
+  transform: translateY(5px);
+}
+.transicion-arriba{
+  
+}
+.transicion-arriba :hover{
+  transition: .3s ease-in-out;
+  transform: translateY(-5px);
+}
+
 .lista{
   color: rgba(0, 0, 0, 0.493);
   font-size: 200%;       
@@ -68,8 +91,6 @@ color: rgb(174, 103, 240);
 
 }
 
-
-
 @media (min-width: 00px) and (max-width: 700px){
     
   .desaparecer{
@@ -91,9 +112,7 @@ color: rgb(174, 103, 240);
   margin-top: 50px;
   color: white;
   background-color: rgba(40, 120, 24, 0.334);
-  display: flex;
-  flex-wrap: wrap;
- 
+
   justify-content: center;
 }
 
