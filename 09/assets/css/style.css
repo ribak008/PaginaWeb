@@ -239,3 +239,35 @@ background-size: cover;
     background-color: black;
   
   }
+  
+
+  .joyas img{
+
+    transition: .3s ease-in-out;
+  }
+  .joyas img:hover{
+    cursor:zoom-in ;
+  }
+
+  .joyas img:active{
+    transform: scale(140%);
+    z-index: 1;
+    transition: .3s ease-in-out;
+    background-color: black;
+  }
+  
+  .tejidos img{
+
+    transition: .3s ease-in-out;
+  }
+  .tejidos img:hover{
+    cursor:zoom-in ;
+  }
+
+  .tejidos img:active{
+    transform: scale(140%);
+    z-index: 1;
+    transition: .3s ease-in-out;
+    background-color: black;
+  }
+  
