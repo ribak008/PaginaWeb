@@ -227,6 +227,10 @@ background-size: cover;
   .pinturas img{
 
     transition: .3s ease-in-out;
+    mask-image: linear-gradient(
+      black 70%,
+      transparent
+    );
   }
   .pinturas img:hover{
     cursor:zoom-in ;
@@ -244,6 +248,10 @@ background-size: cover;
   .joyas img{
 
     transition: .3s ease-in-out;
+    mask-image: linear-gradient(
+      black 70%,
+      transparent
+    );
   }
   .joyas img:hover{
     cursor:zoom-in ;
@@ -259,6 +267,10 @@ background-size: cover;
   .tejidos img{
 
     transition: .3s ease-in-out;
+    mask-image: linear-gradient(
+      black 70%,
+      transparent
+    );
   }
   .tejidos img:hover{
     cursor:zoom-in ;
