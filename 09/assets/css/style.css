@@ -221,3 +221,21 @@ background-size: cover;
     background-image: url(../img/cielo.jpg);
     background-size: cover;
     }
+
+
+
+  .pinturas img{
+
+    transition: .3s ease-in-out;
+  }
+  .pinturas img:hover{
+    cursor:zoom-in ;
+  }
+
+  .pinturas img:active{
+    transform: scale(140%);
+    z-index: 1;
+    transition: .3s ease-in-out;
+    background-color: black;
+  
+  }
