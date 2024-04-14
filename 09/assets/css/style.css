@@ -112,10 +112,10 @@ color: rgb(174, 103, 240);
 }
 
 .fondo-color1{
-  background-color: #212529;
+  background-color: #2125291f;
 }
 .fondo-color2{
-  background-color: #343a40;
+  background-color: #343a408f;
 }
 .fondo-color3{
   background-color: #495057;
@@ -132,3 +132,8 @@ color: rgb(174, 103, 240);
 background-image: url(../img/naturaleza.jpeg);
 background-size: cover;
 }
+
+.fondo-imagen2{
+  background-image: url(../img/arbol-fondo.jpg);
+  background-size: cover;
+  }
