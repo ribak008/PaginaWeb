@@ -79,7 +79,7 @@ color: rgb(174, 103, 240);
   
 }
 
-.fondo-sub-nav:{
+.fondo-sub-nav :hover{
 
   transition: .3s ease-in-out;
   transition-duration: 2s;
@@ -103,6 +103,14 @@ color: rgb(174, 103, 240);
       align-items: center;      
   }
 }
+.footer{
+  background-color: rgb(250, 121, 86 ,1);
+  display: flex;
+  flex-wrap: wrap;
+ 
+  justify-content: center;
+}
+
 .barra{
   height: 2rem;
 }
