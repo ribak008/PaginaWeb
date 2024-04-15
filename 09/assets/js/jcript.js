@@ -20,5 +20,7 @@ btLog.addEventListener("click",(e)=> {
 
     }
 
+    
+
     console.log(`email: ${emailV} tu pass es ${passV}`);
 })

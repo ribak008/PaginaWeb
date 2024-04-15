@@ -163,6 +163,14 @@ filter: brightness(150%);
       justify-content: space-around;
       align-items: center;      
   }
+
+  .cambio-columna-item{
+
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;      
+}
 }
 .footer{
  
