@@ -27,7 +27,7 @@ ul{
 }
 .derecha{
   justify-content: end;
-  margin-right: 20px;
+  
 }
 .izquierda{
   justify-content: start;
@@ -66,9 +66,10 @@ ul{
   background-color: black;
   color: rgb(255, 255, 255);
   transition: 0.3s ease-in;
-  padding: 15px 20px;
+  padding: 15px 30px;
   border-radius: 10rem;
   border: 4px solid black;
+  padding: auto;
   
 }
 .boton-ver:hover{
@@ -147,15 +148,14 @@ filter: brightness(150%);
   color: black;
 }
 
-@media (min-width: 00px) and (max-width: 700px){
-    
-  .desaparecer{
-      display: none;
-  }
-}
+
 
 @media (min-width: 00px) and (max-width: 700px){
     
+  .desaparecer{
+    display: none;
+}
+
   .cambio-columna{
 
       display: flex;
@@ -163,12 +163,23 @@ filter: brightness(150%);
       justify-content: space-around;
       align-items: center;      
   }
+
+  .cambio-columna-item{
+
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;      
+}
+
+
 }
 .footer{
+ 
   margin-top: 50px;
   color: white;
   background-color: rgba(40, 120, 24, 0.334);
-
+  bottom: 0;
   justify-content: center;
 }
 
@@ -284,4 +295,118 @@ background-size: cover;
     transition: .3s ease-in-out;
     background-color: black;
   }
+
+  html {
+    min-height: 100%;
+    position: relative;
+  }
+  body {
+    margin: 0;
+    margin-bottom: 40px;
+  }
+  footer {
+    
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    color: white;
+  }
   
+/* estructura de contenedor de items */
+
+.contenedor-producto{
+  background-color: white;
+  display: grid;
+  
+  justify-content: center;
+
+  grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+  grid-template-rows: repeat(6,auto);
+
+
+  grid-template-areas: 
+  
+  "nav nav nav nav"
+  "img img nom nom"
+  "img img nom nom"
+  "lis lis pre pre"
+  "des des btm btm"
+  "des des btm btm"
+  ;
+}
+
+.contenedor-producto .navegacion{
+  grid-area: nav;
+  height: 100%; 
+  background-color: white;
+}
+
+.contenedor-producto .foto-producto{
+  grid-area: img;
+  height: 100%; 
+  background-color: white;
+}
+.contenedor-producto .lista-producto{
+  grid-area: lis;
+  height: 100%; 
+  background-color: white;
+}
+.contenedor-producto .detalle-producto{
+  grid-area: des;
+  height: 100%; 
+  background-color: white;
+}
+.contenedor-producto .nombre-producto{
+  grid-area: nom;
+  height: 100%; 
+  background-color: white;
+}
+.contenedor-producto .precio-producto{
+  grid-area: pre;
+  height: 100%; 
+  background-color: white(6, 132, 6);
+}
+.contenedor-producto .botones-producto{
+  grid-area: btm;
+  height: 100%; 
+  background-color: white;
+}
+
+/* estructura-carusel-item */
+
+.contenedor-carrusel{
+
+  background-color: white;
+  display: grid;
+  
+  justify-content: center;
+
+  grid-template-columns: 1fr, 1fr, 1fr;
+  grid-template-rows: repeat(2,auto);
+
+
+  grid-template-areas: 
+  
+  "img img nom "
+  "img img btm "
+
+  ;
+}
+
+.contenedor-carrusel .foto-carrusel{
+  grid-area: img;
+  height: 100%; 
+  background-color: white;
+}
+
+.contenedor-carrusel .boton-carrusel{
+  grid-area: btm;
+  height: 100%; 
+  background-color: white;
+}
+.contenedor-carrusel .nombre-carrusel{
+  grid-area: nom;
+  height: 100%; 
+  background-color: white;
+}
