@@ -1,47 +1,55 @@
-.card{
+.card {
   margin: .4rem;
 }
 
-.container{
+.container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-ul{
+ul {
   list-style: none;
 }
-.flex{
+
+.flex {
   display: flex;
 }
-.centra{
+
+.centra {
   justify-content: center;
   align-items: center;
 }
-.separa{
-  justify-content:space-between;
+
+.separa {
+  justify-content: space-between;
 }
-.abajo-derecha{
+
+.abajo-derecha {
   justify-content: end;
   align-items: flex-end;
 }
-.derecha{
+
+.derecha {
   justify-content: end;
-  
+
 }
-.izquierda{
+
+.izquierda {
   justify-content: start;
 }
-.sin-decoracion{
+
+.sin-decoracion {
   text-decoration: none;
-  
+
 }
-.style-enunciado{
+
+.style-enunciado {
   font-size: 250%;
   text-decoration: dotted;
-  
+
   background: linear-gradient(to right, #212529e0, #2125297c, #21252900);
-  color: #adb5bd ;
+  color: #adb5bd;
 }
 
 /* imagen con texto encima */
@@ -56,9 +64,10 @@ ul{
   top: 10px;
   left: 10px;
 }
+
 /* fin  */
 
-.boton-ver{
+.boton-ver {
 
 
   text-transform: uppercase;
@@ -70,9 +79,10 @@ ul{
   border-radius: 10rem;
   border: 4px solid black;
   padding: auto;
-  
+
 }
-.boton-ver:hover{
+
+.boton-ver:hover {
 
   cursor: pointer;
   background-color: white;
@@ -80,102 +90,118 @@ ul{
   border: 4px solid black;
 }
 
-.borde{
+.borde {
   border: 1px solid black;
 }
 
-.transicion-derecha{
-  
-}
-.transicion-derecha :hover{
+.transicion-derecha {}
+
+.transicion-derecha :hover {
   transition: .3s ease-in-out;
   transform: translateX(5px);
 }
 
-.transicion-abajo{
-  
-}
-.transicion-abajo :hover{
+.transicion-abajo {}
+
+.transicion-abajo :hover {
   transition: .3s ease-in-out;
   transform: translateY(5px);
 }
-.transicion-arriba{
-  
-}
-.transicion-arriba :hover{
+
+.transicion-arriba {}
+
+.transicion-arriba :hover {
   transition: .3s ease-in-out;
   transform: translateY(-5px);
 }
 
-.lista{
+.lista {
   color: rgba(0, 0, 0, 0.493);
-  font-size: 200%;       
+  font-size: 200%;
 }
 
 .lista:hover {
-  
+
   display: block;
   transition: all .3s ease-in-out;
   color: #264653;
   text-decoration-color: blueviolet;
   ruby-span: 10;
-  
+
 }
 
 .lista-hamburgesa {
-  
+
   display: flex;
   justify-content: start;
   margin-left: 140px;
   width: 200rem;
-  height:4rem ;
+  height: 4rem;
   text-align: center;
   text-decoration: none;
   color: rgb(180, 180, 180);
-  font-size:150%;   
+  font-size: 150%;
 }
+
 .lista-hamburgesa:hover {
-  
-color: white;
-filter: brightness(150%);
+
+  color: white;
+  filter: brightness(150%);
 
 }
-.blanco{
+
+.blanco {
   color: white;
-  
+
 }
-.negro{
+
+.negro {
   color: black;
 }
 
-
-
-@media (min-width: 00px) and (max-width: 700px){
-    
-  .desaparecer{
-    display: none;
+.cajas-texto {
+  width: 100%;
+  font-size: 16px;
+  border: none;
+  background: none;
+  outline: none;
 }
 
-  .cambio-columna{
+.txt-field {
 
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      align-items: center;      
+  color: #adadad;
+  font-size: 16px;
+  pointer-events: none;
+
+}
+
+
+
+@media (min-width: 00px) and (max-width: 700px) {
+
+  .desaparecer {
+    display: none;
   }
 
-  .cambio-columna-item{
+  .cambio-columna {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .cambio-columna-item {
 
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-around;
-    align-items: center;      
+    align-items: center;
+  }
 }
 
+.footer {
 
-}
-.footer{
- 
   margin-top: 50px;
   color: white;
   background-color: rgba(40, 120, 24, 0.334);
@@ -184,229 +210,318 @@ filter: brightness(150%);
 }
 
 
-.barra{
+.barra {
   height: 2rem;
 }
 
-.fondo-color{
-  background-color:#212529;
+.fondo-color {
+  background-color: #212529;
 }
 
-.fondo-color1{
+.fondo-color1 {
   background-color: #2125291f;
 }
-.fondo-color2{
+
+.fondo-color2 {
   background-color: #343a408f;
 }
-.fondo-color3{
+
+.fondo-color3 {
   background-color: #495057;
 }
-.fondo-color4{
+
+.fondo-color4 {
   background-color: #6c757d;
 }
-.fondo-color5{
+
+.fondo-color5 {
   background-color: #adb5bd;
 }
-.fondo-color6{
+
+.fondo-color6 {
   background-color: rgb(6, 132, 6);
 }
-.fondo-color7{
+
+.fondo-color7 {
   background-color: white;
 }
 
 
-.fondo-imagen{
-background-image: url(../img/naturaleza.jpeg);
-background-size: cover;
+.fondo-imagen {
+  background-image: url(../img/naturaleza.jpeg);
+  background-size: cover;
 }
 
-.fondo-imagen2{
+.fondo-imagen2 {
   background-image: url(../img/arbol-fondo.jpg);
   background-size: cover;
-  }
+}
 
-.fondo-imagen3{
+.fondo-imagen3 {
   background-image: url(../img/fondo-mar.jpg);
   background-size: cover;
-  }
+}
 
-  .fondo-imagen4{
-    background-image: url(../img/cielo.jpg);
-    background-size: cover;
-    }
+.fondo-imagen4 {
+  background-image: url(../img/cielo.jpg);
+  background-size: cover;
+}
 
 
 
-  .pinturas img{
+.pinturas img {
 
-    transition: .3s ease-in-out;
-    mask-image: linear-gradient(
-      black 70%,
-      transparent
-    );
-  }
-  .pinturas img:hover{
-    cursor:zoom-in ;
-  }
+  transition: .3s ease-in-out;
+  mask-image: linear-gradient(black 70%,
+      transparent);
+}
 
-  .pinturas img:active{
-    transform: scale(140%);
-    z-index: 1;
-    transition: .3s ease-in-out;
-    background-color: black;
-  
-  }
-  
+.pinturas img:hover {
+  cursor: zoom-in;
+}
 
-  .joyas img{
+.pinturas img:active {
+  transform: scale(140%);
+  z-index: 1;
+  transition: .3s ease-in-out;
+  background-color: black;
 
-    transition: .3s ease-in-out;
-    mask-image: linear-gradient(
-      black 70%,
-      transparent
-    );
-  }
-  .joyas img:hover{
-    cursor:zoom-in ;
-  }
+}
 
-  .joyas img:active{
-    transform: scale(140%);
-    z-index: 1;
-    transition: .3s ease-in-out;
-    background-color: black;
-  }
-  
-  .tejidos img{
 
-    transition: .3s ease-in-out;
-    mask-image: linear-gradient(
-      black 70%,
-      transparent
-    );
-  }
-  .tejidos img:hover{
-    cursor:zoom-in ;
-  }
+.joyas img {
 
-  .tejidos img:active{
-    transform: scale(140%);
-    z-index: 1;
-    transition: .3s ease-in-out;
-    background-color: black;
-  }
+  transition: .3s ease-in-out;
+  mask-image: linear-gradient(black 70%,
+      transparent);
+}
 
-  html {
-    min-height: 100%;
-    position: relative;
-  }
-  body {
-    margin: 0;
-    margin-bottom: 40px;
-  }
-  footer {
-    
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 40px;
-    color: white;
-  }
-  
+.joyas img:hover {
+  cursor: zoom-in;
+}
+
+.joyas img:active {
+  transform: scale(140%);
+  z-index: 1;
+  transition: .3s ease-in-out;
+  background-color: black;
+}
+
+.tejidos img {
+
+  transition: .3s ease-in-out;
+  mask-image: linear-gradient(black 70%,
+      transparent);
+}
+
+.tejidos img:hover {
+  cursor: zoom-in;
+}
+
+.tejidos img:active {
+  transform: scale(140%);
+  z-index: 1;
+  transition: .3s ease-in-out;
+  background-color: black;
+}
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+footer {
+
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  color: white;
+}
+
 /* estructura de contenedor de items */
 
-.contenedor-producto{
+.contenedor-producto {
   background-color: white;
   display: grid;
-  
+
   justify-content: center;
 
   grid-template-columns: 1fr, 1fr, 1fr, 1fr;
-  grid-template-rows: repeat(6,auto);
+  grid-template-rows: repeat(6, auto);
 
 
-  grid-template-areas: 
-  
-  "nav nav nav nav"
-  "img img nom nom"
-  "img img nom nom"
-  "lis lis pre pre"
-  "des des btm btm"
-  "des des btm btm"
+  grid-template-areas:
+
+    "nav nav nav nav"
+    "img img nom nom"
+    "img img cod cod"
+    "lis lis pri pri"
+    "des des pri pri"
+    "des des btm btm"
   ;
 }
 
-.contenedor-producto .navegacion{
+.contenedor-producto .navegacion-producto {
   grid-area: nav;
-  height: 100%; 
+  /* height: 100%;  */
   background-color: white;
 }
 
-.contenedor-producto .foto-producto{
+.contenedor-producto .codigo-producto {
+  grid-area: cod;
+  background-color: white(184, 24, 24);
+}
+
+.contenedor-producto .foto-producto {
   grid-area: img;
-  height: 100%; 
+  /* height: 100%;  */
   background-color: white;
 }
-.contenedor-producto .lista-producto{
+
+.contenedor-producto .lista-producto {
   grid-area: lis;
-  height: 100%; 
+  /* height: 100%;  */
   background-color: white;
 }
-.contenedor-producto .detalle-producto{
+
+.contenedor-producto .detalle-producto {
   grid-area: des;
-  height: 100%; 
+  /* height: 100%;  */
   background-color: white;
 }
-.contenedor-producto .nombre-producto{
+
+.contenedor-producto .nombre-producto {
   grid-area: nom;
-  height: 100%; 
+  height: 100%;
   background-color: white;
 }
-.contenedor-producto .precio-producto{
-  grid-area: pre;
-  height: 100%; 
+
+.contenedor-producto .precio-producto {
+  grid-area: pri;
+  /* height: 100%;  */
   background-color: white(6, 132, 6);
 }
-.contenedor-producto .botones-producto{
+
+.contenedor-producto .botones-producto {
   grid-area: btm;
-  height: 100%; 
+  /* height: 100%;  */
   background-color: white;
 }
 
 /* estructura-carusel-item */
 
-.contenedor-carrusel{
+.contenedor-carrusel {
 
   background-color: white;
   display: grid;
-  
+
   justify-content: center;
 
   grid-template-columns: 1fr, 1fr, 1fr;
-  grid-template-rows: repeat(2,auto);
+  grid-template-rows: repeat(2, auto);
 
 
-  grid-template-areas: 
-  
-  "img img nom "
-  "img img btm "
+  grid-template-areas:
+
+    "img img nom "
+    "img img btm "
 
   ;
 }
 
-.contenedor-carrusel .foto-carrusel{
+.contenedor-carrusel .foto-carrusel {
   grid-area: img;
-  height: 100%; 
+  height: 100%;
   background-color: white;
 }
 
-.contenedor-carrusel .boton-carrusel{
+.contenedor-carrusel .boton-carrusel {
   grid-area: btm;
-  height: 100%; 
+  height: 100%;
   background-color: white;
 }
-.contenedor-carrusel .nombre-carrusel{
+
+.contenedor-carrusel .nombre-carrusel {
   grid-area: nom;
-  height: 100%; 
+  height: 100%;
   background-color: white;
+}
+
+.contenedor-login {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: white;
+  display: grid;
+  border: 1px solid black;
+  margin-top: 40px;
+  padding-top: 3rem;
+  padding-left: 8rem;
+  padding-bottom: 5rem;
+  padding-right: 8rem;
+  padding: auto;
+  border-radius: 0.5rem;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr, 1fr, 1fr, 1fr, 1fr;
+
+
+  grid-template-areas:
+
+    "ttl"
+    "e-m"
+    "pas"
+    "btn"
+    "rec"
+  ;
+}
+
+.contenedor-login .titulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+  border-bottom: 1px solid black;
+  grid-area: ttl;
+  height: 100%;
+  background-color: white;
+}
+
+.contenedor-login .email {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  grid-area: e-m;
+  height: 100%;
+  background-color: white;
+}
+
+.contenedor-login .contra {
+  margin-bottom: 60px;
+  grid-area: pas;
+  height: 100%;
+  background-color: white;
+}
+
+.contenedor-login .boton {
+  padding: 50px;
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-area: btn;
+  height: 100%;
+  background-color: white;
+}
+
+.contenedor-login .recuperar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-area: rec;
+  height: 100%;
+  background-color: white;
+
 }
